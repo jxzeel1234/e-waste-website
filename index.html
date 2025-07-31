@@ -1,0 +1,816 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>E-waste awareness and Education</title>
+
+        <!-- CSS FILES -->                
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/e-waste.css" rel="stylesheet">
+        
+<!--
+E waste awareness and education
+
+-->
+    </head>
+    
+    <body>
+
+        <main>
+
+            <nav class="navbar navbar-expand-lg">                
+                <div class="container">
+                    <a class="navbar-brand d-flex align-items-center" href="index.html">
+                        <img src="images/logo.png" class="navbar-brand-image img-fluid" alt="E-wasteAwareness">
+                        <span class="navbar-brand-text">
+                            Electronic Waste
+                            <small>Awareness and Education</small>
+                        </span>
+                    </a>
+
+                    <div class="d-lg-none ms-auto me-3">
+                        <a class="btn custom-btn custom-border-btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Member Login</a>
+                    </div>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-lg-auto">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_1">Home</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_2">About E-Waste</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_3">Environmental Impact</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_4">How to Dispose</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_5">Quiz</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_6">Get Involved</a>
+                            </li>
+                        </ul>
+
+                        <div class="d-none d-lg-block ms-lg-3">
+                            <a class="btn custom-btn custom-border-btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">                
+            
+                
+                <div class="offcanvas-body d-flex flex-column">
+                    
+
+                    <div class="mt-auto mb-5">
+                        <p>
+                            <strong class="text-white me-3">Any Questions?</strong>
+
+                            <a href="tel: 010-020-0340" class="contact-link">
+                            	07017186752
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="38761D" fill-opacity="1" d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3D405B" fill-opacity="1" d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+            </div>
+            
+
+            <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+
+                <div class="section-overlay"></div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#38761D" fill-opacity="1" d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12 mb-5 mb-lg-0">
+                            <h2 class="text-white">Protect Our Future</h2>
+
+                            <h1 class="cd-headline rotate-1 text-white mb-4 pb-2">
+                                <span>Say No to</span>
+                                <span class="cd-words-wrapper">
+                                <b class="is-visible">E-Waste</b>
+                                <b>Toxic Pollution</b>
+                                <b>Irresponsible Dumping</b>
+                                <b>Electronic Neglect</b>
+                                </span>
+                            </h1>
+
+                            <div class="custom-btn-group">
+                                <a href="#section_2" class="btn custom-btn smoothscroll me-3">Learn More</a>
+
+                                <a href="#section_3" class="link smoothscroll">Quiz</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <div class="ratio ratio-16x9">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/IUCRZEj4QQo?si=ZFyFb5KqkfhhlJFd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+            </section>
+
+
+            <section class="about-section section-padding" id="section_2">
+     <div class="container">
+        <div class="row">
+<!--About page-->
+           <div class="container">
+  <!-- Section title -->
+            <div class="row">
+                <div class="col-12 text-center">
+                <h2 class="mb-lg-5 mb-4">About E-Waste</h2>
+                </div>
+            </div>
+
+            <!-- Content: Left Text + Right Cards -->
+            <div class="row align-items-start">
+
+                <!-- LEFT: Text content -->
+                <div class="col-lg-5 col-12 me-auto mb-4 mb-lg-0">
+                <h3 class="mb-3">Understanding E-Waste</h3>
+                <p><strong>Electronic Waste (E-Waste)</strong> refers to discarded electrical or electronic devices like phones, computers, TVs, and batteries. As technology advances, the volume of e-waste continues to grow globally and locally.</p>
+                <p>This platform was created to raise awareness, encourage safe disposal, and promote recycling habits within our community. Together, we can reduce the harmful effects of e-waste on our health and the environment.</p>
+                </div>
+
+                <!-- RIGHT: 2x2 Card Grid -->
+                <div class="col-lg-6">
+                <div class="row">
+
+                    <!-- Card 1 -->
+                    <div class="col-md-6 col-12 mb-4">
+                    <div class="custom-block text-center">
+                        <div class="custom-block-icon-wrap mb-3">
+                        <div class="custom-block-icon"><i class="bi-phone"></i></div>
+                        </div>
+                        <div class="custom-block-image-wrap mb-3">
+                        <img src="images/phone-recycling.jpg" class="custom-block-image img-fluid" alt="Phone recycling">
+                        </div>
+                        <h4 class="mb-3">Recover Precious Metals</h4>
+                        <p>One ton of mobile phones contains more gold than one ton of gold ore</p>
+                    </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-md-6 col-12 mb-4">
+                    <div class="custom-block text-center">
+                        <div class="custom-block-icon-wrap mb-3">
+                        <div class="custom-block-icon"><i class="bi-shield-check"></i></div>
+                        </div>
+                        <div class="custom-block-image-wrap mb-3">
+                        <img src="images/safe-disposal.jpg" class="custom-block-image img-fluid" alt="Safe disposal">
+                        </div>
+                        <h4 class="mb-3">Prevent Toxins</h4>
+                        <p>Proper e-waste disposal prevents lead, mercury, and cadmium from entering the environment</p>
+                    </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-md-6 col-12 mb-4">
+                    <div class="custom-block text-center">
+                        <div class="custom-block-icon-wrap mb-3">
+                        <div class="custom-block-icon"><i class="bi-laptop"></i></div>
+                        </div>
+                        <div class="custom-block-image-wrap mb-3">
+                        <img src="images/computer-recycling.jpg" class="custom-block-image img-fluid" alt="Computer recycling">
+                        </div>
+                        <h4 class="mb-3">Extract Rare Materials</h4>
+                        <p>Recycling computers recovers rare earth elements and valuable components for reuse</p>
+                    </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="col-md-6 col-12 mb-4">
+                    <div class="custom-block text-center">
+                        <div class="custom-block-icon-wrap mb-3">
+                        <div class="custom-block-icon"><i class="bi-battery-charging"></i></div>
+                        </div>
+                        <div class="custom-block-image-wrap mb-3">
+                        <img src="images/battery-recycling.jpg" class="custom-block-image img-fluid" alt="Battery recycling">
+                        </div>
+                        <h4 class="mb-3">Battery Safety</h4>
+                        <p>Proper battery disposal prevents fires and toxic chemical leaks in landfills</p>
+                    </div>
+                    </div>
+
+                </div>
+                </div>
+
+            </div>
+</div>
+
+
+        </div>
+    </div>
+</section>
+
+
+            <section class="section-bg-image" id="section_3">
+                <svg viewBox="0 0 1265 144" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="rgba(255, 255, 255, 1)" d="M 0 40 C 164 40 164 20 328 20 L 328 20 L 328 0 L 0 0 Z" stroke-width="0"></path> <path fill="rgba(255, 255, 255, 1)" d="M 327 20 C 445.5 20 445.5 89 564 89 L 564 89 L 564 0 L 327 0 Z" stroke-width="0"></path> <path fill="rgba(255, 255, 255, 1)" d="M 563 89 C 724.5 89 724.5 48 886 48 L 886 48 L 886 0 L 563 0 Z" stroke-width="0"></path><path fill="rgba(255, 255, 255, 1)" d="M 885 48 C 1006.5 48 1006.5 67 1128 67 L 1128 67 L 1128 0 L 885 0 Z" stroke-width="0"></path><path fill="rgba(255, 255, 255, 1)" d="M 1127 67 C 1196 67 1196 0 1265 0 L 1265 0 L 1265 0 L 1127 0 Z" stroke-width="0"></path></svg>
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-8 col-12">
+                            <div class="section-bg-image-block">
+                                <h2 class="mb-lg-3">Environmental Impact of E-Waste</h2>
+
+                                <p class="mb-4">Electronic waste is one of the fastest-growing waste streams globally, with devastating environmental consequences. Every year, millions of tons of e-waste end up in landfills, releasing toxic chemicals into our soil, water, and air.</p>
+
+                                <div class="row mb-4">
+                                    <div class="col-md-6 mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <i class="bi-exclamation-triangle-fill text-warning me-3" style="font-size: 2rem;"></i>
+                                            <div>
+                                                <h5 class="mb-1">60,000 tons</h5>
+                                                <p class="mb-0">of second-hand electronics flow in annually in Nigeria</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <i class="bi-recycle text-success me-3" style="font-size: 2rem;"></i>
+                                            <div>
+                                                <h5 class="mb-1">Less than 10%</h5>
+                                                <p class="mb-0">of e-waste in Nigeria is properly collected and recycled</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mb-4">
+                                    <div class="col-md-6 mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <i class="bi-droplet-fill text-info me-3" style="font-size: 2rem;"></i>
+                                            <div>
+                                                <h5 class="mb-1">Water Contamination</h5>
+                                                <p class="mb-0">Toxic chemicals leach into groundwater</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <i class="bi-cloud-fill text-secondary me-3" style="font-size: 2rem;"></i>
+                                            <div>
+                                                <h5 class="mb-1">Air Pollution</h5>
+                                                <p class="mb-0">Burning e-waste releases harmful gases</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="custom-btn-group">
+                                    <a href="#section_4" class="btn custom-btn smoothscroll me-3">Learn How to Dispose</a>
+                                    <a href="#section_6" class="link smoothscroll">ved</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <svg viewBox="0 0 1265 144" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="rgba(255, 255, 255, 1)" d="M 0 40 C 164 40 164 20 328 20 L 328 20 L 328 0 L 0 0 Z" stroke-width="0"></path> <path fill="rgba(255, 255, 255, 1)" d="M 327 20 C 445.5 20 445.5 89 564 89 L 564 89 L 564 0 L 327 0 Z" stroke-width="0"></path> <path fill="rgba(255, 255, 255, 1)" d="M 563 89 C 724.5 89 724.5 48 886 48 L 886 48 L 886 0 L 563 0 Z" stroke-width="0"></path><path fill="rgba(255, 255, 255, 1)" d="M 885 48 C 1006.5 48 1006.5 67 1128 67 L 1128 67 L 1128 0 L 885 0 Z" stroke-width="0"></path><path fill="rgba(255, 255, 255, 1)" d="M 1127 67 C 1196 67 1196 0 1265 0 L 1265 0 L 1265 0 L 1127 0 Z" stroke-width="0"></path></svg>
+            </section>
+
+
+            <section class="membership-section section-padding" id="section_4">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 text-center mx-auto mb-lg-5 mb-4">
+                            <h2><span>How to Dispose</span> of E-Waste</h2>
+                        </div>
+
+                        <div class="col-lg-6 col-12 mb-3 mb-lg-0">
+                            <h4 class="mb-4 pb-lg-2">Proper Disposal Methods</h4>
+
+                            <div class="table-responsive">
+                                <table class="table text-center">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 40%;">Device Type</th>
+                                            
+                                            <th style="width: 30%;">Disposal Method</th>
+                                            
+                                            <th style="width: 30%;">Safety Level</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row" class="text-start">Mobile Phones</th>
+                                            
+                                            <td>Authorized Collection Centers</td>
+                                            
+                                            <td>
+                                                <i class="bi-check-circle-fill text-success"></i> Safe
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row" class="text-start">Laptops & Computers</th>
+
+                                            <td>E-Waste Recycling Facilities</td>
+
+                                            <td>
+                                                <i class="bi-check-circle-fill text-success"></i> Safe
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row" class="text-start">Televisions</th>
+
+                                            <td>Specialized E-Waste Centers</td>
+
+                                            <td>
+                                                <i class="bi-exclamation-triangle-fill text-warning"></i> Handle Carefully
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row" class="text-start">Batteries</th>
+
+                                            <td>Battery Collection Points</td>
+
+                                            <td>
+                                                <i class="bi-exclamation-triangle-fill text-warning"></i> Handle Carefully
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row" class="text-start">Small Electronics</th>
+
+                                            <td>Municipal Collection Events</td>
+
+                                            <td>
+                                                <i class="bi-check-circle-fill text-success"></i> Safe
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <th scope="row" class="text-start">Large Appliances</th>
+
+                                            <td>Professional Pickup Services</td>
+
+                                            <td>
+                                                <i class="bi-exclamation-triangle-fill text-warning"></i> Professional Required
+                                            </td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 col-12 mx-auto">
+                            <h4 class="mb-4 pb-lg-2">Disposal Guidelines</h4>
+                            <div class="custom-form membership-form shadow-lg" role="form">
+                                <h4 class="text-white mb-4">Before You Dispose</h4>
+
+                                <div class="mb-3">
+                                    <h6 class="text-white"><i class="bi-1-circle-fill me-2"></i>Backup Your Data</h6>
+                                    <p class="text-white-50">Transfer important files and photos to cloud storage or external drives</p>
+                                </div>
+
+                                <div class="mb-3">
+                                    <h6 class="text-white"><i class="bi-2-circle-fill me-2"></i>Remove Personal Info</h6>
+                                    <p class="text-white-50">Factory reset devices and remove SIM cards from phones</p>
+                                </div>
+
+                                <div class="mb-3">
+                                    <h6 class="text-white"><i class="bi-3-circle-fill me-2"></i>Check for Donation</h6>
+                                    <p class="text-white-50">Consider donating working devices to schools or charities</p>
+                                </div>
+
+                                <div class="mb-3">
+                                    <h6 class="text-white"><i class="bi-4-circle-fill me-2"></i>Find Collection Points</h6>
+                                    <p class="text-white-50">Locate authorized e-waste collection centers near you</p>
+                                </div>
+
+                                <div class="custom-btn-group mt-4">
+                                    <a href="#section_6" class="btn custom-btn smoothscroll me-3">Find Drop-off Centers</a>
+                                    <a href="#section_5" class="link smoothscroll">Take the Quiz</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="events-section section-bg section-padding" id="section_5">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 text-center mb-5">
+                            <h2 class="mb-3">Test Your E-Waste Knowledge</h2>
+                            <p class="mb-0">Take this quiz to see how much you know about electronic waste and proper disposal methods.</p>
+                        </div>
+
+                        <div class="col-lg-8 col-12 mx-auto">
+                            <div class="quiz-container">
+                                <!-- Progress Bar -->
+                                <div class="quiz-progress mb-4">
+                                    <div class="progress" style="height: 8px;">
+                                        <div class="progress-bar" id="quiz-progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <div class="d-flex justify-content-between mt-2">
+                                        <small class="text-muted">Question <span id="current-question">1</span> of 5</small>
+                                        <small class="text-muted"><span id="answered-count">0</span> answered</small>
+                                    </div>
+                                </div>
+
+                                <!-- Question Container -->
+                                <div id="question-container">
+                                    <!-- Question 1 -->
+                                    <div class="quiz-question" id="question-1">
+                                        <h4 class="mb-4">What percentage of global e-waste is properly recycled?</h4>
+                                        <div class="quiz-options">
+                                            <div class="quiz-option" data-question="1" data-answer="a">
+                                                <span class="option-text">Less than 20%</span>
+                                            </div>
+                                            <div class="quiz-option" data-question="1" data-answer="b">
+                                                <span class="option-text">About 50%</span>
+                                            </div>
+                                            <div class="quiz-option" data-question="1" data-answer="c">
+                                                <span class="option-text">Over 80%</span>
+                                            </div>
+                                            <div class="quiz-option" data-question="1" data-answer="d">
+                                                <span class="option-text">100%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Question 2 -->
+                                    <div class="quiz-question" id="question-2" style="display: none;">
+                                        <h4 class="mb-4">Which of these is NOT considered e-waste?</h4>
+                                        <div class="quiz-options">
+                                            <div class="quiz-option" data-question="2" data-answer="a">
+                                                <span class="option-text">Old mobile phones</span>
+                                            </div>
+                                            <div class="quiz-option" data-question="2" data-answer="b">
+                                                <span class="option-text">Broken televisions</span>
+                                            </div>
+                                            <div class="quiz-option" data-question="2" data-answer="c">
+                                                <span class="option-text">Used paper</span>
+                                            </div>
+                                            <div class="quiz-option" data-question="2" data-answer="d">
+                                                <span class="option-text">Laptop computers</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Question 3 -->
+                                    <div class="quiz-question" id="question-3" style="display: none;">
+                                        <h4 class="mb-4">What toxic chemical is commonly found in e-waste?</h4>
+                                        <div class="quiz-options">
+                                            <div class="quiz-option" data-question="3" data-answer="a">
+                                                <span class="option-text">Lead</span>
+                                            </div>
+                                            <div class="quiz-option" data-question="3" data-answer="b">
+                                                <span class="option-text">Sugar</span>
+                                            </div>
+                                            <div class="quiz-option" data-question="3" data-answer="c">
+                                                <span class="option-text">Water</span>
+                                            </div>
+                                            <div class="quiz-option" data-question="3" data-answer="d">
+                                                <span class="option-text">Oxygen</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Question 4 -->
+                                    <div class="quiz-question" id="question-4" style="display: none;">
+                                        <h4 class="mb-4">What should you do before disposing of a mobile phone?</h4>
+                                        <div class="quiz-options">
+                                            <div class="quiz-option" data-question="4" data-answer="a">
+                                                <span class="option-text">Throw it in regular trash</span>
+                                            </div>
+                                            <div class="quiz-option" data-question="4" data-answer="b">
+                                                <span class="option-text">Back up data and remove personal info</span>
+                                            </div>
+                                            <div class="quiz-option" data-question="4" data-answer="c">
+                                                <span class="option-text">Bury it in the garden</span>
+                                            </div>
+                                            <div class="quiz-option" data-question="4" data-answer="d">
+                                                <span class="option-text">Burn it</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Question 5 -->
+                                    <div class="quiz-question" id="question-5" style="display: none;">
+                                        <h4 class="mb-4">Where is the best place to dispose of e-waste?</h4>
+                                        <div class="quiz-options">
+                                            <div class="quiz-option" data-question="5" data-answer="a">
+                                                <span class="option-text">Regular landfill</span>
+                                            </div>
+                                            <div class="quiz-option" data-question="5" data-answer="b">
+                                                <span class="option-text">Authorized e-waste collection centers</span>
+                                            </div>
+                                            <div class="quiz-option" data-question="5" data-answer="c">
+                                                <span class="option-text">Ocean</span>
+                                            </div>
+                                            <div class="quiz-option" data-question="5" data-answer="d">
+                                                <span class="option-text">Backyard</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Navigation Buttons -->
+                                <div class="quiz-navigation mt-4">
+                                    <button type="button" class="btn custom-border-btn me-2" id="prev-btn" onclick="previousQuestion()" style="display: none;">Previous</button>
+                                    <button type="button" class="btn custom-btn" id="next-btn" onclick="nextQuestion()">Next</button>
+                                    <button type="button" class="btn custom-btn" id="submit-btn" onclick="submitQuiz()" style="display: none;">Submit Quiz</button>
+                                </div>
+
+                                <!-- Results -->
+                                <div id="quiz-results" class="mt-5" style="display: none;">
+                                    <div class="text-center">
+                                        <div class="results-card">
+                                            <h3 class="mb-4">Quiz Complete!</h3>
+                                            <div class="score-circle mb-4">
+                                                <span id="final-score">0%</span>
+                                            </div>
+                                            <p id="score-text" class="mb-3"></p>
+                                            <p id="feedback-text" class="mb-4"></p>
+                                            <button type="button" class="btn custom-btn me-2" onclick="resetQuiz()">Take Quiz Again</button>
+                                            <button type="button" class="btn custom-border-btn" onclick="showAnswers()">View Answers</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="section-bg section-padding" id="section_6">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12">
+                            <h2 class="mb-4">Get Involved</h2>
+                            <p class="mb-4">Join the movement to create a sustainable future. Every action counts in reducing e-waste and protecting our environment.</p>
+                            
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-12 mb-4">
+                                    <div class="custom-block custom-block-bg">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="custom-block-icon-wrap">
+                                                <div class="custom-block-icon">
+                                                    <i class="bi bi-recycle"></i>
+                                                </div>
+                                            </div>
+                                            <h5 class="mb-0 ms-3">Recycle Responsibly</h5>
+                                        </div>
+                                        <p class="mb-0">Find local e-waste collection centers and properly dispose of your electronic devices.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-12 mb-4">
+                                    <div class="custom-block custom-block-bg">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="custom-block-icon-wrap">
+                                                <div class="custom-block-icon">
+                                                    <i class="bi bi-share"></i>
+                                                </div>
+                                            </div>
+                                            <h5 class="mb-0 ms-3">Spread Awareness</h5>
+                                        </div>
+                                        <p class="mb-0">Share knowledge about e-waste with friends, family, and your community.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-12 mb-4">
+                                    <div class="custom-block custom-block-bg">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="custom-block-icon-wrap">
+                                                <div class="custom-block-icon">
+                                                    <i class="bi bi-heart"></i>
+                                                </div>
+                                            </div>
+                                            <h5 class="mb-0 ms-3">Donate Devices</h5>
+                                        </div>
+                                        <p class="mb-0">Give working electronics to schools, charities, or organizations in need.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-12 mb-4">
+                                    <div class="custom-block custom-block-bg">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="custom-block-icon-wrap">
+                                                <div class="custom-block-icon">
+                                                    <i class="bi bi-calendar-event"></i>
+                                                </div>
+                                            </div>
+                                            <h5 class="mb-0 ms-3">Join Events</h5>
+                                        </div>
+                                        <p class="mb-0">Participate in e-waste collection drives and environmental awareness events.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <div class="custom-block-image-wrap d-flex flex-column h-80">
+                                
+                                <img src="images/call-to-action.jpg" alt="Take Action" class="img-fluid mb-3">
+                                <div class="custom-block-date-wrap">
+                                    <h6 class="text-uppercase text-white">Take Action Today</h6>
+                                    <p class="text-white mb-0">Start making a difference</p>
+                                </div>
+
+                                <div class="custom-block-info d-flex">
+                                    <div class="d-flex">
+                                        <div class="me-4">
+                                            <h6 class="text-white">50+</h6>
+                                            <p class="text-white">Collection Centers</p>
+                                        </div>
+
+                                        <div class="me-4">
+                                            <h6 class="text-white">1000+</h6>
+                                            <p class="text-white">Devices Recycled</p>
+                                        </div>
+
+                                        <div>
+                                            <h6 class="text-white">500+</h6>
+                                            <p class="text-white">Volunteers</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="section-overlay"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="resources-section section-padding" id="section_7">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-12 text-center mb-5">
+                            <h2 class="mb-4">Continue Your E-Waste Journey</h2>
+                            <p class="lead">Knowledge is power! Explore these resources to deepen your understanding and take action.</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-8 col-12 mx-auto">
+                            <div class="resources-grid">
+                                <div class="resource-card">
+                                    <div class="resource-icon">
+                                        <i class="bi bi-book"></i>
+                                    </div>
+                                    <h4>Learn More</h4>
+                                    <p>Expand your knowledge with these trusted resources:</p>
+                                    <ul class="resource-links">
+                                        <li><a href="https://www.unep.org/ietc/what-we-do/e-waste-management" target="_blank">UNEP E-Waste Guidelines</a></li>
+                                        <li><a href="https://www.who.int/news-room/fact-sheets/detail/electronic-waste-(e-waste)" target="_blank">WHO E-Waste Health Impacts</a></li>
+                                        <li><a href="https://www.epa.gov/international-cooperation/cleaning-electronic-waste-e-waste" target="_blank">EPA E-Waste Information</a></li>
+                                       
+                                    </ul>
+                                </div>
+
+                                <div class="resource-card">
+                                    <div class="resource-icon">
+                                        <i class="bi bi-recycle"></i>
+                                    </div>
+                                    <h4>Recycle in Nigeria</h4>
+                                    <p>Find authorized e-waste recycling centers and collection points across Nigeria:</p>
+                                    <div class="recycling-button-container">
+                                        <a href="https://www.google.com/maps/search/e-waste+recycling+centers+nigeria" target="_blank" class="btn custom-btn recycling-btn">
+                                            <i class="bi bi-geo-alt me-2"></i>
+                                            Find Recycling Centers
+                                        </a>
+                                    </div>
+                                    <div class="recycling-info">
+                                        <p><strong>Major Cities:</strong> Lagos, Abuja, Port Harcourt, Kano, Ibadan</p>
+                                        <p><strong>Types Accepted:</strong> Phones, Computers, TVs, Batteries, Appliances</p>
+                                    </div>
+                                </div>
+                                <div class="resource-card">
+                                    <div class="resource-icon">
+                                        <i class="bi bi-people"></i>
+                                    </div>
+                                    <h4>Join the Movement</h4>
+                                    <p>Connect with organizations making a difference:</p>
+                                    <ul class="resource-links">
+                                        <li><a href="https://www.facebook.com/groups/ewastenigeriainitiative" target="_blank">E-Waste Nigeria Initiative</a></li>
+                                        <li><a href="https://twitter.com/GreenTechNG" target="_blank">GreenTech Nigeria</a></li>
+                                        <li><a href="https://www.linkedin.com/company/ewaste-africa" target="_blank">E-Waste Africa Network</a></li>
+                                        <li><a href="https://www.instagram.com/cleanenvironmentng" target="_blank">Clean Environment NG</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col-lg-12 col-12 text-center">
+                            <div class="call-to-action">
+                                <h3>Ready to Make a Difference?</h3>
+                                <p>Start by recycling one device today. Every small action counts towards a cleaner, healthier environment.</p>
+                                <div class="action-buttons">
+                                    <a href="#section_4" class="btn custom-btn me-3">Learn How to Dispose</a>
+                                    <a href="#section_5" class="btn custom-border-btn">Take the Quiz</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-12 me-auto mb-5 mb-lg-0">
+                        <a class="navbar-brand d-flex align-items-center" href="index.html">
+                            <img src="images/Logo.png" class="navbar-brand-image img-fluid" alt="">
+                            <span class="navbar-brand-text">
+                                E-waste
+                                <small>Awareness and Education</small>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-12">
+                        <br>
+                        <p class="copyright-text">Copyright © 2025 Electronic Waste Awareness and Education</p>
+                    </div>
+
+                        <div class="col-lg-2 col-12 ms-auto">
+                            <ul class="social-icon mt-lg-5 mt-3 mb-4">
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-instagram"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-twitter"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-whatsapp"></a>
+                                </li>
+                            </ul>
+    
+                        </div>
+
+                </div>
+            </div>
+
+        </footer>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/animated-headline.js"></script>
+        <script src="js/modernizr.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/quiz.js"></script>
+    </body>
+</html>
