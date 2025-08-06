@@ -1576,3 +1576,36 @@ strong {
       font-size: 14px;
   }
 }
+.feedback-form input,
+.feedback-form textarea {
+  border: 1px solid #ccc;
+  padding: 12px 15px;
+  font-size: 1rem;
+  border-radius: 8px;
+  width: 100%;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+  border-color: #3b8d2c; /* your green color */
+}
+
+.feedback-form .form-control {
+  margin-bottom: 20px;
+}
+
+.feedback-form .custom-btn {
+  background-color: #3b8d2c;
+  color: white;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.feedback-form .custom-btn:hover {
+  background-color: #2f6f21;
+}
