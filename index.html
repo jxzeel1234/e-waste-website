@@ -750,6 +750,27 @@ E waste awareness and education
                             </div>
                         </div>
                         </form>
+                       <p id="thankYou" style="display:none; color:green;">Thank you for your feedback!</p>
+
+                            <script>
+                            document.getElementById("feedbackForm").addEventListener("submit", function(e) {
+                                e.preventDefault(); // Stop normal form submission
+
+                                const formData = new FormData(this);
+
+                                fetch("https://docs.google.com/forms/d/e/1FAIpQLSfYmaT6e-fmoJ-ZdyRTPOS5vfkgMClDQOnhzBprtWCfuf5Czg/formResponse", {
+                                    method: "POST",
+                                    mode: "no-cors",
+                                    body: formData
+                                }).then(() => {
+                                    document.getElementById("thankYou").style.display = "block";
+                                    this.reset(); // Clear the form fields
+                                }).catch(err => {
+                                    alert("There was a problem submitting your feedback.");
+                                    console.error(err);
+                                });
+                            });
+                            </script>
                 </div>
                 </div>
             </div>
